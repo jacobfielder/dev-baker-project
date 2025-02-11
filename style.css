@@ -7,13 +7,21 @@
   margin: auto;
 }
 
+.mines {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  background-color: orange;
+  border-radius: 5px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
 
 #mainHouse1 {
   position: absolute;
   width: 170px;   
   height: 120px;  
   background-color: #669999;  
-  top: 80%;       
+  top: 50%;       
   left: 28%;  
   border-radius: 8px; 
   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
@@ -25,7 +33,7 @@
   width: 170px;   
   height: 120px;  
   background-color: #669999;  
-  top: 80%; 
+  top: 50%; 
   right: 28%;     
   border-radius: 8px; 
   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
@@ -37,7 +45,7 @@
   width: 150px;
   height: 80px; 
   background-color: rgba(144, 238, 144, 0.4);
-  top: 77%;
+  top: 50%;
   left: 15%; 
   border-radius: 9px;
   transform: rotate(-80deg);
@@ -49,7 +57,7 @@
   width: 150px;
   height: 80px; 
   background-color: rgba(144, 238, 144, 0.4);
-  top: 77%;
+  top: 50%;
   right: 15%; 
   border-radius: 9px;
   transform: rotate(-100deg);
@@ -58,11 +66,11 @@
 
 #mainRoad {
   position: absolute;
-  width: 36%;   /* Full width of the container */
-  height: 138px;  
+  width: 25%;   /* Full width of the container */
+  height: 135px;  
   background-color: #333; 
-  top: 140%; 
-  left: 32%;
+  top: 65%; 
+  left: 37%;
   transform: rotate(90deg)
 }
 
@@ -71,10 +79,12 @@
   width: 20px;
   height: 40px; 
   background-color: red;
-  top: 55%;
+  top: 30%;
   left: 49%; 
   border-radius: 9px;
   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  z-index: 10;
 }
 
 #greenCar {
@@ -82,7 +92,7 @@
   width: 20px;
   height: 40px; 
   background-color: green;
-  top: 140%;
+  top: 83%;
   left: 49%; 
   border-radius: 9px;
   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
@@ -95,7 +105,7 @@
   width: 25px;
   height: 100px; 
   background-color: #993333;
-  top: 105%;
+  top: 60%;
   left: 45%; 
   border-radius: 9px;
   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
@@ -108,7 +118,7 @@
   width: 25px;
   height: 120px; 
   background-color: #993333;
-  top: 85%;
+  top: 45%;
   right: 45%; 
   border-radius: 9px;
   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
@@ -116,8 +126,13 @@
   z-index: 3;
 }
 
-#mascot {
-  
+#soldierCat {
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  background-image: url('https://i.imgflip.com/89toss.png');
+  background-size: cover; 
+  z-index: 10; 
 }
 
 h1, h6, p {
@@ -126,5 +141,5 @@ h1, h6, p {
 }
 
 #mascot {
- transform: rotate(180deg); 
+ transform: rotate(180deg);
 }
