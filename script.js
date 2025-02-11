@@ -1,0 +1,10 @@
+$(document)
+  .on('click', 
+      (event)=>
+      {
+      console.log(
+        event.target.id, 
+        $('#'+event.target.id)
+        .position()
+        .left);
+})

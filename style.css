@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+
+.wholeMap {
+  height: 650px;
+  width: 1150px;
+  background-color: grey;
+  margin: auto;
+}
+
+
+#mainHouse1 {
+  position: absolute;
+  width: 170px;   
+  height: 120px;  
+  background-color: #669999;  
+  top: 80%;       
+  left: 28%;  
+  border-radius: 8px; 
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+  transform: rotate(10deg);
+}
+
+#mainHouse2 {
+  position: absolute;
+  width: 170px;   
+  height: 120px;  
+  background-color: #669999;  
+  top: 80%; 
+  right: 28%;     
+  border-radius: 8px; 
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+  transform: rotate(-10deg); 
+}
+
+#spawn1 {
+   position: absolute;
+  width: 150px;
+  height: 80px; 
+  background-color: rgba(144, 238, 144, 0.4);
+  top: 77%;
+  left: 15%; 
+  border-radius: 9px;
+  transform: rotate(-80deg);
+  z-index: 1; 
+}
+
+#spawn2 {
+  position: absolute;
+  width: 150px;
+  height: 80px; 
+  background-color: rgba(144, 238, 144, 0.4);
+  top: 77%;
+  right: 15%; 
+  border-radius: 9px;
+  transform: rotate(-100deg);
+  z-index: 1; 
+}
+
+#mainRoad {
+  position: absolute;
+  width: 36%;   /* Full width of the container */
+  height: 138px;  
+  background-color: #333; 
+  top: 140%; 
+  left: 32%;
+  transform: rotate(90deg)
+}
+
+#redCar {
+  position: absolute;
+  width: 20px;
+  height: 40px; 
+  background-color: red;
+  top: 55%;
+  left: 49%; 
+  border-radius: 9px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+#greenCar {
+  position: absolute;
+  width: 20px;
+  height: 40px; 
+  background-color: green;
+  top: 140%;
+  left: 49%; 
+  border-radius: 9px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+  transform: rotate(90deg);
+  z-index: 3;
+}
+
+#truck1 {
+  position: absolute;
+  width: 25px;
+  height: 100px; 
+  background-color: #993333;
+  top: 105%;
+  left: 45%; 
+  border-radius: 9px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+  transform: rotate(-20deg);
+  z-index: 3;
+}
+
+#truck2 {
+  position: absolute;
+  width: 25px;
+  height: 120px; 
+  background-color: #993333;
+  top: 85%;
+  right: 45%; 
+  border-radius: 9px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+  transform: rotate(-20deg);
+  z-index: 3;
+}
+
+#mascot {
+  
+}
+
+h1, h6, p {
+  font-family: 'Russo One', sans-serif;
+  text-align: center;
+}
+
+#mascot {
+ transform: rotate(180deg); 
+}
