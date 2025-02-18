@@ -69,7 +69,7 @@
   width: 25%;   /* Full width of the container */
   height: 135px;  
   background-color: #333; 
-  /* top: 65%; */
+  top: 65%; 
   left: 37%;
   transform: rotate(90deg)
 }
